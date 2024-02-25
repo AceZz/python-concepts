@@ -7,11 +7,6 @@ We present here key Python programming concepts, each linked to official documen
 - **Concept**: Writing code that performs operations asynchronously, improving performance in I/O bound and high-latency activities.
 - **Documentation**: [Asynchronous Programming](https://docs.python.org/3/library/asyncio.html)
 
-## Multithreading vs Multiprocessing vs Asyncio
-
-- **Concept**: Different strategies for achieving concurrency in Python applications.
-- **Documentation**: [Threading](https://docs.python.org/3/library/threading.html), [Multiprocessing](https://docs.python.org/3/library/multiprocessing.html), [Asyncio](https://docs.python.org/3/library/asyncio.html)
-
 ## C Extensions
 
 - **Concept**: Enhancing Python with C to improve performance.
@@ -56,11 +51,6 @@ We present here key Python programming concepts, each linked to official documen
 
 - **Concept**: Built-in Python data structures for storing collections of data.
 - **Documentation**: [Data Structures](https://docs.python.org/3/tutorial/datastructures.html)
-
-## Data Serialization
-
-- **Concept**: Converting data objects to a format that can be restored later.
-- **Documentation**: [Pickle](https://docs.python.org/3/library/pickle.html), [JSON](https://docs.python.org/3/library/json.html)
 
 ## Decimal Module
 
@@ -117,6 +107,11 @@ We present here key Python programming concepts, each linked to official documen
 - **Concept**: Distinguishing between `is` and `==`, understanding `copy` vs `deepcopy`.
 - **Documentation**: [Comparisons](https://docs.python.org/3/reference/expressions.html#comparisons), [Copy](https://docs.python.org/3/library/copy.html)
 
+## Multithreading vs Multiprocessing
+
+- **Concept**: Different strategies for achieving concurrency in Python applications.
+- **Documentation**: [Threading](https://docs.python.org/3/library/threading.html), [Multiprocessing](https://docs.python.org/3/library/multiprocessing.html)
+
 ## Protocols (structural static typing)
 
 - **Concept**: Defining formal interfaces for Python classes.
@@ -141,6 +136,11 @@ We present here key Python programming concepts, each linked to official documen
 
 - **Concept**: Using pattern matching in strings.
 - **Documentation**: [Regular Expressions](https://docs.python.org/3/library/re.html)
+
+## Serialization
+
+- **Concept**: Converting data objects to a format that can be restored later.
+- **Documentation**: [Pickle](https://docs.python.org/3/library/pickle.html), [JSON](https://docs.python.org/3/library/json.html)
 
 ## singledispatch
 
